@@ -179,7 +179,7 @@ $(document).ready(function() {
         $('body').append('<a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>');
     }
     if (!$('.whatsapp-float').length) {
-        $('body').append('<a href="https://wa.me/5515996316527?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Prolog%20Projetos" target="_blank" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>');
+        $('body').append('<a href="https://wa.me/5515996316527?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Prolog%20Projetos" target="_blank" class="whatsapp-float" aria-label="Botão atalho WhatsApp"><i class="fab fa-whatsapp"></i></a>');
     }
     
     // Adicionar animações de hover para elementos interativos em todas as páginas
