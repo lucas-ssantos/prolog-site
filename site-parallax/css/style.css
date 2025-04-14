@@ -162,7 +162,7 @@ a:hover {
 
 .dropdown-item:hover {
     background-color: var(--primary-light);
-    color: var(--primary-color);
+    color: white;
 }
 
 /* Hero Section */
