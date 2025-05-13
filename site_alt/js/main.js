@@ -204,8 +204,6 @@ $(document).ready(function() {
     $( ".form-contato-zap" ).on( "submit", function( event ) {
         event.preventDefault();
 
-        console.log('a');
-
         var form = $(this);
         var formData = {};
 
@@ -219,9 +217,7 @@ $(document).ready(function() {
             }
         });
         
-        console.log(formData);
-
-        var url = "https://wa.me/5515996316527/?text=Olá, sou o(a) " + capitalizeFirstLetter(formData['nome']) + " da(o) " + capitalizeFirstLetter(formData['empresa']) + ", visitei o site da *Prolog* e gostaria de mais informações sobre *" + formData['assunto'] + '*%0A%0A' + capitalizeFirstLetter(formData['msg']);
+        var url = "https://wa.me/5515996316527/?text=Olá, sou o(a) " + capitalizeFirstLetter(formData['nome']) + " da(o) " + capitalizeFirstLetter(formData['empresa']) + ",%0A%0AVisitei o site da *Prolog* e gostaria de mais informações sobre:%0A*" + formData['assunto'] + '*%0A%0A' + capitalizeFirstLetter(formData['msg']) + "%0A%0A"+formData['email'];
         window.open(url, '_blank');
         
     });
