@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prolog Projetos - Prevenção de Danos em Armazéns</title>
+
+    <!-- Meta Tags -->
+    <link href="img/favicon.webp" rel="icon">
+    <link href="img/favicon.webp" rel="apple-touch-icon">
+    <meta name="canonical" href="https://prologprojetos.net">
+    <!-- Meta Tags para SEO -->
+    <meta name="description" content="Prolog Projetos - Prevenção de Danos em Armazéns. Inspeção em Sistemas de Armazenagem, Inspeção para Reavaliação, Treinamento de Multiplicadores e Plano de Manutenção.">
+    <meta name="keywords" content="prolog projetos, inspeção em sistemas de armazenagem, inspeção para reavaliação, treinamento de multiplicadores, plano de manutenção">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Prolog Projetos">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-white.webp" alt="Prolog Projetos" class="logo" width="150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Serviços
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="inspecao-sistemas.html">Inspeção em Sistemas de Armazenagem</a></li>
+                            <li><a class="dropdown-item" href="inspecao-reavaliacao.html">Inspeção para Reavaliação</a></li>
+                            <li><a class="dropdown-item" href="treinamento.html">Treinamento de Multiplicadores</a></li>
+                            <li><a class="dropdown-item" href="plano-manutencao.html">Plano de Manutenção</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel Section -->
+    <header id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- Slide 1: Apresentação da Empresa -->
+            <div class="carousel-item active" style="background-image: url('img/index/hero/hero1.webp');">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold">Prolog Projetos</h1>
+                    <p class="lead">Há mais de 20 anos garantindo a segurança e integridade das estruturas de armazenagem para empresas de grande porte.</p>
+                    <a href="quem-somos.html" class="btn btn-primary btn-lg">Conheça Nossa Empresa</a>
+                </div>
+            </div>
+            <!-- Slide 2: Serviço de Inspeção -->
+            <div class="carousel-item" style="background-image: url('img/index/hero/hero2.webp');">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold">Inspeção em Sistemas de Armazenagem</h1>
+                    <p class="lead">Avaliação estrutural completa com registro de avarias, emissão de laudo pericial e suporte técnico.</p>
+                    <a href="inspecao-sistemas.html" class="btn btn-primary btn-lg">Saiba Mais</a>
+                </div>
+            </div>
+            <!-- Slide 3: Manutenção Preventiva -->
+            <div class="carousel-item" style="background-image: url('img/index/hero/hero3.webp');">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold">Manutenção Preventiva</h1>
+                    <p class="lead">Previna acidentes e garanta a durabilidade das suas estruturas com nosso plano de manutenção preventiva.</p>
+                    <a href="plano-manutencao.html" class="btn btn-primary btn-lg">Veja Como Funciona</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </header>
+
+    <!-- Sobre Nós Resumo -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="img/index/inspecao.webp" alt="Inspeção de Armazém" class="img-fluid rounded shadow floating">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title">Experiência e Excelência em Inspeção</h2>
+                    <p class="lead">A <b>Prolog Projetos</b> é especializada em inspeções técnicas para estruturas de armazenagem, com <b>06 anos de expertise</b> em garantir segurança, conformidade e durabilidade para operações de grande porte.</p>
+                    <p>Atendemos multinacionais e empresas líderes de mercado, oferecendo soluções integradas que <b>previnem falhas, reduzem riscos operacionais</b> e asseguram o cumprimento de normas nacionais e internacionais. Nossa metodologia combina tecnologia e know-how técnico para proteger ativos estratégicos e otimizar o desempenho de armazéns.</p>
+                    <a href="quem-somos.html" class="btn btn-outline-primary">Saiba Mais Sobre Nós</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="lead">Soluções completas para garantir a segurança das suas estruturas de armazenagem</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h5 class="card-title">Inspeção em Sistemas de Armazenagem</h5>
+                            <p class="card-text">Avaliação estrutural completa com registro de avarias, emissão de laudo pericial e suporte técnico.</p>
+                            <a href="inspecao-sistemas.html" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <h5 class="card-title">Inspeção para Reavaliação</h5>
+                            <p class="card-text">Controle e verificação das manutenções executadas com emissão de novo laudo técnico.</p>
+                            <a href="inspecao-reavaliacao.html" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <h5 class="card-title">Treinamento de Multiplicadores</h5>
+                            <p class="card-text">Capacitação de colaboradores para realizar inspeções periódicas e identificar avarias.</p>
+                            <a href="treinamento.html" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h5 class="card-title">Plano de Manutenção</h5>
+                            <p class="card-text">Relatório detalhado com quantidade, relação e criticidade das peças avariadas.</p>
+                            <a href="plano-manutencao.html" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conscientização -->
+    <section class="py-5 bg-primary text-white parallax">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h2 class="section-title text-white">A Importância da Prevenção</h2>
+                    <p>O negligenciamento da inspeção e manutenção das estruturas de armazenagem pode acarretar:</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-exclamation-triangle me-2"></i> Perda de produtos armazenados</li>
+                        <li class="mb-2"><i class="fas fa-exclamation-triangle me-2"></i> Danos à reputação da empresa</li>
+                        <li class="mb-2"><i class="fas fa-exclamation-triangle me-2"></i> Acidentes graves com risco à vida</li>
+                        <li class="mb-2"><i class="fas fa-exclamation-triangle me-2"></i> Paralisação das operações</li>
+                        <li class="mb-2"><i class="fas fa-exclamation-triangle me-2"></i> Prejuízos financeiros significativos</li>
+                    </ul>
+                    <p class="mt-3">Invista em segurança e prevenção. Sua empresa e seus colaboradores merecem.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded shadow text-dark">
+                        <h4 class="mb-3">Solicite uma Avaliação</h4>
+                        <form class="form-contato-zap">
+                            <div class="mb-3">
+                                <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="empresa" class="form-control" placeholder="Empresa" required>
+                            </div>
+                            <div class="mb-3">
+                                <select name="assunto" class="form-select" required>
+                                    <option value="" selected>Selecione um assunto</option>
+                                    <option value="Inspeção em Sistemas de Armazenagem">Inspeção em Sistemas de Armazenagem</option>
+                                    <option value="Inspeção para Reavaliação">Inspeção para Reavaliação</option>
+                                    <option value="Treinamento de Multiplicadores">Treinamento de Multiplicadores</option>
+                                    <option value="Plano de Manutenção">Plano de Manutenção</option>
+                                    <option value="Outros serviços">Outros</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="msg" class="form-control" rows="3" placeholder="Mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilares -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nossos Pilares</h2>
+                <p class="lead">Na Prolog, sua segurança é nossa prioridade</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 pillar-card">
+                        <div class="card-body text-center">
+                            <div class="pillar-icon mb-3">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 class="card-title">Comprometimento</h4>
+                            <p class="card-text">Priorizamos a segurança, valorizando vidas ao garantir a estabilidade de estruturas de armazenagem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 pillar-card">
+                        <div class="card-body text-center">
+                            <div class="pillar-icon mb-3">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h4 class="card-title">Excelência Técnica</h4>
+                            <p class="card-text">Investimos na melhoria contínua de nossos métodos, assegurando inspeções de alta precisão e qualidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 pillar-card">
+                        <div class="card-body text-center">
+                            <div class="pillar-icon mb-3">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4 class="card-title">Integridade</h4>
+                            <p class="card-text">Trabalhamos com transparência e ética, estabelecendo relações sólidas e confiáveis com nossos clientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="section-title">Mais de 06 Anos de Expertise Técnica</h2>
+                    <p>Há mais de seis anos, a <b>Prolog Projetos</b> consolida sua liderança em inspeção e avaliação de estruturas de armazenagem, atendendo às demandas críticas de grandes corporações e multinacionais.</p>
+                    <p>Nossa equipe de <b>especialistas certificados</b> já executou <b>milhares de inspeções técnicas</b> em todo o território nacional, assegurando:</p>
+                    <ul>
+                        <li><b>Conformidade rigorosa</b> com normas técnicas e regulamentações.</li>
+                        <li><b>Integridade estrutural</b> para prevenção de riscos e falhas.</li>
+                        <li><b>Gestão proativa</b> da segurança em operações logísticas de alta complexidade.</li>
+                    </ul>
+                    <div class="d-flex mt-4">
+                        <div class="me-4 text-center">
+                            <h3 class="text-primary mb-0">20+</h3>
+                            <p>Anos de Atuação</p>
+                        </div>
+                        <div class="me-4 text-center">
+                            <h3 class="text-primary mb-0">500+</h3>
+                            <p>Clientes Atendidos</p>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-primary mb-0">1000+</h3>
+                            <p>Inspeções Realizadas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <img src="img/index/20anos.webp" alt="20 anos de experiência" class="img-fluid rounded shadow floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="lead">Estamos prontos para atender sua empresa</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h4 class="mb-4">Informações de Contato</h4>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Endereço</h6>
+                                <p class="mb-0">Rua Araçatuba, 140 - Vila Trujillo, Sorocaba - SP</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Telefone</h6>
+                                <p class="mb-0">(15) 9 9807-1001</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Email</h6>
+                                <p class="mb-0">contato@prologprojetos.net</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h6 class="mb-3">Siga-nos</h6>
+                            <div class="social-icons">
+                                <a target="_blank" href="https://wa.me/5515996316527/?t=Ol%C3%A1,%20visitei%20o%20site%20da%20*Prolog%20Projetos*%20e%20gostaria%20de%20saber%20mais%20sobre:" class="me-2" aria-label="Botão WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/prologprojetos/" class="me-2" aria-label="Botão Instagram"><i class="fab fa-instagram"></i></a>
+                                <a target="_blank" href="https://br.linkedin.com/company/prolog-projetos-inspe%C3%A7%C3%B5es" class="me-2" aria-label="Botão Instagram"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form p-4 bg-light rounded shadow-sm form-contato-zap">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="empresa" class="form-control" placeholder="Empresa" required>
+                            </div>
+                            <div class="col-12">
+                                <select name="assunto" class="form-select" required>
+                                    <option value="" selected>Selecione um assunto</option>
+                                    <option value="Inspeção em Sistemas de Armazenagem">Inspeção em Sistemas de Armazenagem</option>
+                                    <option value="Inspeção para Reavaliação">Inspeção para Reavaliação</option>
+                                    <option value="Treinamento de Multiplicadores">Treinamento de Multiplicadores</option>
+                                    <option value="Plano de Manutenção">Plano de Manutenção</option>
+                                    <option value="Outros serviços">Outros</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="msg" class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes Carousel -->
+    <section class="clients-carousel py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nossos Clientes</h2>
+                <p class="lead">Empresas que confiam em nossos serviços</p>
+            </div>
+            <div id="clientsCarousel" class="carousel slide client-carousel-container" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                        <img src="img/clientes/braskem.webp" alt="Logo Braskem" class="client-logo">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                        <img src="img/clientes/braskem.webp" alt="Logo Braskem" class="client-logo">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/braskem.webp" alt="Logo Braskem" class="client-logo">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                        <img src="img/clientes/volkswagen.webp" alt="Logo volkswagen" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                        <img src="img/clientes/volkswagen.webp" alt="Logo volkswagen" class="client-logo">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                        <img src="img/clientes/volkswagen.webp" alt="Logo volkswagen" class="client-logo">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/volkswagen.webp" alt="Logo volkswagen" class="client-logo">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                        <img src="img/clientes/braskem.webp" alt="Logo Braskem" class="client-logo">
+                    </div>
+                </div>
+                <!-- Botões de navegação ocultos via CSS -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#clientsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#clientsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <img src="img/logo.webp" alt="Logo da Empresa" class="footer-logo mb-3" width="200px">
+                    <p>Especialistas em inspeção e avaliação de estruturas de armazenagem, garantindo segurança e conformidade para sua empresa.</p>
+                    <p class="mb-0">Prevenção de Danos em Armazéns</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="quem-somos.html" class="text-white">Quem Somos</a></li>
+                        <li class="mb-2"><a href="inspecao-sistemas.html" class="text-white">Inspeção em Sistemas</a></li>
+                        <li class="mb-2"><a href="inspecao-reavaliacao.html" class="text-white">Inspeção para Reavaliação</a></li>
+                        <li class="mb-2"><a href="treinamento.html" class="text-white">Treinamento</a></li>
+                        <li class="mb-2"><a href="plano-manutencao.html" class="text-white">Plano de Manutenção</a></li>
+                        <li class="mb-2"><a href="politica-privacidade.html" class="text-white">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a target="_blank" href="https://maps.app.goo.gl/K63ei1VYuU1R85Rg8"><i class="fas fa-map-marker-alt me-2"></i> Rua Araçatuba, 140 - Vila Trujillo, Sorocaba - SP</a></li>
+                        <li class="mb-2"><a target="_blank" href="tel:15998071001"><i class="fas fa-phone me-2"></i> (15) 9 9807-1001</a></li>
+                        <li class="mb-2"><a target="_blank" href="tel:15996316527"><i class="fas fa-phone me-2"></i> (15) 9 9631-6527</a></li>
+                        <li class="mb-2"><a target="_blank" href="tel:1598071060"><i class="fas fa-phone me-2"></i> (15) 9 9807-1060</a></li>
+                        <li class="mb-2"><a target="_blank" href="mailto:contato@prologprojetos.net"><i class="fas fa-envelope me-2"></i> contato@prologprojetos.net</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Prolog Projetos. Todos os direitos reservados. | CNPJ: 34.058.135/0001-20</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.instagram.com/prologprojetos/" class="text-white me-3" aria-label="Botão social media Instagram"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/78716216/admin/feed/posts/" class="text-white  me-3" aria-label="Botão social media LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a target="_blank" href="https://wa.me/5515996316527/?t=Ol%C3%A1,%20visitei%20o%20site%20da%20*Prolog%20Projetos*%20e%20gostaria%20de%20saber%20mais%20sobre:" class="text-white" aria-label="Botão social media WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
