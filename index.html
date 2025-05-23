@@ -37,6 +37,7 @@
 	padding:13px 32px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #9b9b9b;
+    margin-bottom: 1rem;
     }
     .antigo:hover {
         background:linear-gradient(to bottom, #829194 5%, #b6b6b6 100%);
@@ -71,14 +72,16 @@
         top:1px;
     }
 </style>
-<div style="background: #eee; width: 100%; height: 100%; display: flex;">
+<div style="background: #eee; width: 100%; height: 100%; display: flex; flex-direction: row;
+    justify-content: center;
+    align-items: center;">
     <!-- COLUNA PROLOG -->
-    <div style="background: #ddd; border-radius: 1rem; display: flex;">
-        <a class="antigo" href="prolog">Prolog</a>
-        <a class="prolog" href="prolog_alt">Prolog Alterações</a>
+    <div style="background: #ddd; border-radius: 1rem; display: flex; flex-direction: column;">
+        <a class="antigo" href="site">Prolog</a>
+        <a class="prolog" href="site_alt">Prolog Alterações</a>
     </div>
     <!-- COLUNA ALTALOG -->
-    <div style="background: #ddd; border-radius: 1rem; display: flex;">
+    <div style="background: #ddd; border-radius: 1rem; display: flex; flex-direction: column;">
         <a class="altalog" href="altalog">Altalog</a>
     </div>
 </div>
