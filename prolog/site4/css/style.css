@@ -19,7 +19,7 @@
     --info-color: #00A2E3; /* Azul Claro */
     --white: #ffffff;
     --black: #000000;
-    --oragen: #fb850E;
+    --cs-orange: #fb850E;
 }
 
 /* Estilos Gerais */
@@ -77,7 +77,7 @@ a:hover {
     position: relative;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: var(--oragen);
+    color: var(--cs-orange);
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
 }
@@ -87,7 +87,7 @@ a:hover {
     display: block;
     width: 50px;
     height: 3px;
-    background-color: var(--oragen); /* Dourado claro para detalhes */
+    background-color: var(--cs-orange); /* Dourado claro para detalhes */
     margin-top: 0.8rem;
 }
 
@@ -100,6 +100,11 @@ a:hover {
 {
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
+}
+
+.highlight
+{
+    color: var(--cs-orange);
 }
 
 /* Animação de Flutuação */
@@ -123,10 +128,10 @@ a:hover {
 .navbar {
     padding: 1rem 0;
     transition: all 0.3s ease;
-    background: RGBA(1, 7, 52, 0.75);
-    background: -webkit-linear-gradient(180deg,rgba(1, 7, 52, .75) 78%, rgba(0, 0, 0, 0) 100%);
-    background: -moz-linear-gradient(180deg,rgba(1, 7, 52, .75) 78%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(180deg,rgba(1, 7, 52, .75) 78%, rgba(0, 0, 0, 0) 100%);
+    background: RGBA(1, 7, 52, 0.9);
+    background: -webkit-linear-gradient(180deg,rgba(1, 7, 52, .9) 78%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(180deg,rgba(1, 7, 52, .9) 78%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg,rgba(1, 7, 52, .9) 78%, rgba(0, 0, 0, 0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(
         startColorstr="#010734BF",
         endColorstr="#00000000",
@@ -139,10 +144,10 @@ a:hover {
     .navbar {
         padding: 1rem 0;
         transition: all 0.3s ease;
-        background: RGBA(1, 7, 52, 0.75);
-        background: -webkit-linear-gradient(180deg,rgba(1, 7, 52, .75) 95%, rgba(0, 0, 0, 0) 100%);
-        background: -moz-linear-gradient(180deg,rgba(1, 7, 52, .75) 95%, rgba(0, 0, 0, 0) 100%);
-        background: linear-gradient(180deg,rgba(1, 7, 52, .75) 95%, rgba(0, 0, 0, 0) 100%);
+        background: RGBA(1, 7, 52, 0.9);
+        background: -webkit-linear-gradient(180deg,rgba(1, 7, 52, .9) 95%, rgba(0, 0, 0, 0) 100%);
+        background: -moz-linear-gradient(180deg,rgba(1, 7, 52, .9) 95%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(180deg,rgba(1, 7, 52, .9) 95%, rgba(0, 0, 0, 0) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(
             startColorstr="#010734BF",
             endColorstr="#00000000",
@@ -216,7 +221,7 @@ a:hover {
 
 .btn-link
 {
-    border: 2px solid var(--oragen);
+    border: 2px solid var(--cs-orange);
     border-radius: 5px;
 }
 
