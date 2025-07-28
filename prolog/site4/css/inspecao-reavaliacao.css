@@ -8,7 +8,6 @@
     color: var(--white);
     display: flex;
     align-items: center;
-    margin-top: 76px;
 }
 
 .page-header .overlay {
