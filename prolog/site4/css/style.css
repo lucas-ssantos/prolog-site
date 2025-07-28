@@ -24,7 +24,7 @@
 
 /* Estilos Gerais */
 body {
-    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #333;
     line-height: 1.6;
     overflow-x: hidden;
@@ -223,6 +223,20 @@ a:hover {
 {
     border: 2px solid var(--cs-orange);
     border-radius: 5px;
+    color: var(--cs-orange);
+}
+
+.btn-link:hover
+{
+    border: 2px solid var(--cs-orange);
+    border-radius: 5px;
+    background: var(--cs-orange);
+    color: white;
+}
+
+a.btn-link
+{
+    text-decoration: none;
 }
 
 /* Hero Section */
