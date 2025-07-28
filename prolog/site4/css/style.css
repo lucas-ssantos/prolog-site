@@ -77,7 +77,9 @@ a:hover {
     position: relative;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #FACF99; /* Dourado escuro para títulos */
+    color: var(--oragen);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
 }
 
 .section-title::after {
@@ -85,13 +87,19 @@ a:hover {
     display: block;
     width: 50px;
     height: 3px;
-    background-color: var(--accent-color); /* Dourado claro para detalhes */
+    background-color: var(--oragen); /* Dourado claro para detalhes */
     margin-top: 0.8rem;
 }
 
 .text-center .section-title::after {
     margin-left: auto;
     margin-right: auto;
+}
+
+.lead
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 /* Animação de Flutuação */
