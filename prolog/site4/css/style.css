@@ -357,6 +357,11 @@ footer a:hover {
     text-decoration: none;
 }
 
+footer .footer-col-links, footer .footer-col-contato
+{
+    margin-top: 3rem;
+}
+
 /* Carousel de Clientes */
 .clients-carousel {
     padding: 2rem 0;
