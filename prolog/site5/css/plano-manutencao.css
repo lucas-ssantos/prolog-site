@@ -8,7 +8,6 @@
     color: var(--white);
     display: flex;
     align-items: center;
-    margin-top: 76px;
 }
 
 .page-header .overlay {
@@ -85,8 +84,8 @@
     height: 50px;
     line-height: 50px;
     border-radius: 50%;
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
+    background-color: var(--cs-w-orange);
+    color: var(--cs-orange);
     font-size: 1.2rem;
     text-align: center;
     margin-right: 1rem;

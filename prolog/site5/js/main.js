@@ -226,4 +226,14 @@ $(document).ready(function() {
         return String(val).charAt(0).toUpperCase() + String(val).slice(1);
     }
 
+    //CASO FALHE O HOVER NO DROPDOWN DO MENU
+    document.querySelectorAll('.dropdown').forEach(drop => {
+        drop.addEventListener('mouseenter', () => {
+            drop.querySelector('.dropdown-menu').classList.add('show');
+        });
+        drop.addEventListener('mouseleave', () => {
+            drop.querySelector('.dropdown-menu').classList.remove('show');
+        });
+    });
+
 });
