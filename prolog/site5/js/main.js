@@ -1,9 +1,3 @@
-/**
- * Prolog Projetos - Script Principal
- * Autor: Trae AI
- * Versão: 1.2
- */
-
 $(document).ready(function() {
     // Navbar scroll effect
     $(window).scroll(function() {
@@ -217,7 +211,7 @@ $(document).ready(function() {
             }
         });
         
-        var url = "https://wa.me/5515996316527/?text=Olá, sou o(a) " + capitalizeFirstLetter(formData['nome']) + " da(o) " + capitalizeFirstLetter(formData['empresa']) + ",%0A%0AVisitei o site da *Prolog* e gostaria de mais informações sobre:%0A*" + formData['assunto'] + '*%0A%0A' + capitalizeFirstLetter(formData['msg']) + "%0A%0A"+formData['email'];
+        var url = "https://wa.me/5515996316527/?text=Olá, sou o(a) " + capitalizeFirstLetter(formData['nome']) + " da(o) " + capitalizeFirstLetter(formData['empresa']) + ",%0A%0AVisitei o site da *Prolog* e gostaria de mais informações sobre:%0A*" + formData['assunto'] + '*%0A%0A' + capitalizeFirstLetter(formData['msg']);
         window.open(url, '_blank');
         
     });
