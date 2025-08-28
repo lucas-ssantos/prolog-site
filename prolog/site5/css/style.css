@@ -112,6 +112,11 @@ a.whatsapp-float:hover {
     color: var(--cs-orange);
 }
 
+.justified
+{
+    text-align: justify!important;
+}
+
 /* Animação de Flutuação */
 @keyframes floating {
     0% {
