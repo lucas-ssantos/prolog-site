@@ -696,6 +696,21 @@ footer .footer-col-links, footer .footer-col-contato
     align-items: center;
 }
 
+/* Desgrudando Botões e deixando centralizados no Mobile */
+@media (max-width: 768px)
+{
+    .servico-btns
+    {
+        text-align: center;
+    }
+
+    .servico-btns > a:first-child
+    {
+        margin: 0.5rem;
+    }
+}
+
+
 /* Efeito Parallax */
 .parallax {
     background-attachment: fixed;
