@@ -43,8 +43,12 @@ a {
 }
 
 a:hover {
-    color: var(--primary-dark);
+    color: white;
     text-decoration: none;
+}
+
+a.whatsapp-float:hover {
+    color: white;
 }
 
 .btn {
@@ -60,8 +64,8 @@ a:hover {
 }
 
 .btn-primary:hover {
-    background-color: var(--primary-dark);
-    border-color: var(--primary-dark);
+    background-color: var(--cs-orange);
+    border-color: var(--cs-orange);
 }
 
 .btn-outline-primary {
@@ -194,6 +198,11 @@ a:hover {
     background-color: var(--cs-orange);
 }
 
+.navbar-light .navbar-nav .nav-link.btn-link:hover
+{
+    color: white;;
+}
+
 .dropdown-menu {
     border: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -298,7 +307,7 @@ a.btn-link
     line-height: 70px;
     border-radius: 50%;
     background-color: var(--cs-orange); /* Dourado claro para fundo de ícones */
-    color: var(--cs-w-orange); /* Dourado escuro para ícones */
+    color: white; /* Dourado escuro para ícones */
     font-size: 1.8rem;
     margin: 0 auto;
 }
@@ -314,12 +323,12 @@ a.btn-link
 .pillar-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .pillar-card:hover .pillar-icon {
     transform: scale(1.1);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--white);
 }
 
@@ -328,8 +337,8 @@ a.btn-link
     height: 80px;
     line-height: 80px;
     border-radius: 50%;
-    background-color: var(--cs-w-orange); /* Dourado claro para fundo de ícones */
-    color: var(--cs-orange); /* Dourado escuro para ícones */
+    background-color: var(--cs-orange); /* Dourado claro para fundo de ícones */
+    color: white; /* Dourado escuro para ícones */
     font-size: 2rem;
     margin: 0 auto;
 }
@@ -349,7 +358,7 @@ a.btn-link
     text-align: center;
     border-radius: 50%;
     background-color: var(--cs-orange); /* Dourado claro para fundo de ícones */
-    color: var(--accent-color); /* Dourado escuro para ícones */
+    color: white; /* Dourado escuro para ícones */
 }
 
 .social-icons a {
@@ -529,7 +538,8 @@ footer .footer-col-links, footer .footer-col-contato
 }
 
 .back-to-top:hover {
-    background-color: var(--primary-dark);
+    background-color: var(--cs-orange);
+    color: white;
     transform: translateY(-3px);
 }
 

@@ -58,8 +58,8 @@
     height: 70px;
     line-height: 70px;
     border-radius: 50%;
-    background-color: var(--cs-w-orange); /* Dourado claro para fundo de ícones */
-    color: var(--cs-orange); /* Dourado escuro para ícones */
+    background-color: var(--cs-orange); /* Dourado claro para fundo de ícones */
+    color: white; /* Dourado escuro para ícones */
     font-size: 1.8rem;
     margin: 0 auto 20px;
     text-align: center;
