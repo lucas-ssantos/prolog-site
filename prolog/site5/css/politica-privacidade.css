@@ -2,3 +2,8 @@
 {
     height: auto!important;
 }
+
+a:hover
+{
+    color: var(--cs-orange);
+}
