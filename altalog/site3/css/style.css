@@ -437,7 +437,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--accent-color)!important;
+    color: var(--cs-orange)!important;
     text-decoration: none;
 }
 
