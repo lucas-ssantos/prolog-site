@@ -13,6 +13,8 @@
     --info-color: #00A2E3; /* Azul Claro */
     --white: #ffffff;
     --black: #000000;
+    --cs-orange: #fb850E;
+    --cs-w-orange: #ffab57;
 }
 
 /* Estilos Gerais */
@@ -70,7 +72,7 @@ a:hover {
     position: relative;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #FACF99; /* Dourado escuro para títulos */
+    color: var(--cs-orange); /* Dourado escuro para títulos */
 }
 
 .section-title::after {
@@ -78,7 +80,7 @@ a:hover {
     display: block;
     width: 50px;
     height: 3px;
-    background-color: var(--accent-color); /* Dourado claro para detalhes */
+    background-color: var(--cs-orange); /* Dourado claro para detalhes */
     margin-top: 0.8rem;
 }
 
@@ -119,7 +121,7 @@ a:hover {
 }
 
 .navbar-brand .text-primary {
-    color: var(--accent-color) !important; /* Dourado claro para o nome PROLOG */
+    color: var(--cs-orange) !important; /* Dourado claro para o nome PROLOG */
 }
 
 .navbar-brand .text-secondary {
@@ -135,7 +137,7 @@ a:hover {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--accent-color); /* Dourado claro para links ativos */
+    color: var(--cs-orange); /* Dourado claro para links ativos */
 }
 
 .navbar-light .navbar-nav .nav-link.active::after {
@@ -145,7 +147,7 @@ a:hover {
     left: 1rem;
     right: 1rem;
     height: 2px;
-    background-color: var(--accent-color);
+    background-color: var(--cs-orange);
 }
 
 .dropdown-menu {
@@ -233,12 +235,12 @@ a:hover {
 .pillar-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .pillar-card:hover .pillar-icon {
     transform: scale(1.1);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--white);
 }
 
@@ -247,8 +249,8 @@ a:hover {
     height: 80px;
     line-height: 80px;
     border-radius: 50%;
-    background-color: var(--accent-color); /* Dourado claro para fundo de ícones */
-    color: var(--secondary-color); /* Dourado escuro para ícones */
+    background-color: var(--cs-orange); /* Dourado claro para fundo de ícones */
+    color: white; /* Dourado escuro para ícones */
     font-size: 2rem;
     margin: 0 auto;
 }
@@ -267,8 +269,8 @@ a:hover {
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    background-color: var(--accent-color); /* Dourado claro para fundo de ícones */
-    color: var(--secondary-color); /* Dourado escuro para ícones */
+    background-color: var(--cs-orange); /* Dourado claro para fundo de ícones */
+    color: white; /* Dourado escuro para ícones */
 }
 
 .social-icons a {
