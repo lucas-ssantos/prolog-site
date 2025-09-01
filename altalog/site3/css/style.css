@@ -106,12 +106,101 @@ a:hover {
     animation: floating 3s ease-in-out infinite;
 }
 
+/* Navbar 
+.navbar {
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+    background-color: #042433; /* Azul Acinzentado para fundo 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--white) !important;
+}
+
+.navbar-brand .text-primary {
+    color: var(--cs-orange) !important; /* Dourado claro para o nome PROLOG 
+}
+
+.navbar-brand .text-secondary {
+    color: var(--white) !important; /* Branco para o texto Projetos 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--cs-orange); /* Dourado claro para links ativos 
+}
+
+.navbar-light .navbar-nav .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    right: 1rem;
+    height: 2px;
+    background-color: var(--cs-orange);
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary-light);
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--white);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+*/
+
+
 /* Navbar */
 .navbar {
     padding: 1rem 0;
     transition: all 0.3s ease;
-    background-color: #042433; /* Azul Acinzentado para fundo */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: RGBA(1, 7, 52, 0.9);
+    background: -webkit-linear-gradient(180deg,rgba(1, 7, 52, .9) 78%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(180deg,rgba(1, 7, 52, .9) 78%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg,rgba(1, 7, 52, .9) 78%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr="#010734BF",
+        endColorstr="#00000000",
+        GradientType=0
+    );
+    /*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem 0;
+        transition: all 0.3s ease;
+        background: RGBA(1, 7, 52, 0.9);
+        background: -webkit-linear-gradient(180deg,rgba(1, 7, 52, .9) 95%, rgba(0, 0, 0, 0) 100%);
+        background: -moz-linear-gradient(180deg,rgba(1, 7, 52, .9) 95%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(180deg,rgba(1, 7, 52, .9) 95%, rgba(0, 0, 0, 0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr="#010734BF",
+            endColorstr="#00000000",
+            GradientType=0
+        );
+        /*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);*/
+    }
 }
 
 .navbar-brand {
@@ -150,6 +239,11 @@ a:hover {
     background-color: var(--cs-orange);
 }
 
+.navbar-light .navbar-nav .nav-link.btn-link:hover
+{
+    color: white;;
+}
+
 .dropdown-menu {
     border: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -160,6 +254,42 @@ a:hover {
     background-color: var(--primary-light);
     color: white;
 }
+
+.navbar-brand img, .navbar-brand p
+{
+    margin-left: 2rem;
+}
+
+.sub-logo
+{
+    font-size: small;
+}
+
+.btns-circle:last-child a
+{
+    margin: 0 2rem;
+}
+
+.btn-link
+{
+    border: 2px solid var(--cs-orange);
+    border-radius: 5px;
+    color: var(--cs-orange);
+}
+
+.btn-link:hover
+{
+    border: 2px solid var(--cs-orange);
+    border-radius: 5px;
+    background: var(--cs-orange);
+    color: white;
+}
+
+a.btn-link
+{
+    text-decoration: none;
+}
+
 
 /* Hero Section */
 .hero-section {
@@ -218,8 +348,8 @@ a:hover {
     height: 70px;
     line-height: 70px;
     border-radius: 50%;
-    background-color: var(--accent-color); /* Dourado claro para fundo de ícones */
-    color: var(--secondary-color); /* Dourado escuro para ícones */
+    background-color: var(--cs-orange); /* Dourado claro para fundo de ícones */
+    color: white; /* Dourado escuro para ícones */
     font-size: 1.8rem;
     margin: 0 auto;
 }
