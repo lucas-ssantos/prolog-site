@@ -68,7 +68,10 @@ a:hover {
     border-color: var(--cs-orange);
 }
 
-
+.justify
+{
+    text-align: justify!important;
+}
 
 .section-title {
     position: relative;
