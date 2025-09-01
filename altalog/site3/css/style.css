@@ -54,8 +54,8 @@ a:hover {
 }
 
 .btn-primary:hover {
-    background-color: var(--primary-dark);
-    border-color: var(--primary-dark);
+  background-color: var(--cs-orange);
+  border-color: var(--cs-orange);
 }
 
 .btn-outline-primary {
@@ -64,9 +64,11 @@ a:hover {
 }
 
 .btn-outline-primary:hover {
-    background-color: var(--primary-color);
-    color: var(--white);
+    background-color: var(--cs-orange);
+    border-color: var(--cs-orange);
 }
+
+
 
 .section-title {
     position: relative;
@@ -575,7 +577,8 @@ footer a:hover {
 }
 
 .back-to-top:hover {
-    background-color: var(--primary-dark);
+    background-color: var(--cs-orange);
+    color: white;
     transform: translateY(-3px);
 }
 
