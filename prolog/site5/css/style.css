@@ -813,3 +813,10 @@ footer .footer-col-links, footer .footer-col-contato
 {
     background-image: url('../img/index/parallax.webp');
 }
+
+@media (max-width: 768px) {
+    .fix-mob-exp
+    {
+        flex-direction: column
+    }
+}
