@@ -1,0 +1,20 @@
+.page-header {
+    position: relative;
+    height: 50vh;
+    min-height: 300px;
+    background-image: url('../img/quem-somos/hero.webp');
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.page-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+}
