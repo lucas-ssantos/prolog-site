@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altalog</title>
+
+    <!-- Meta Tags -->
+    <link href="img/favicon.webp" rel="icon">
+    <link href="img/favicon.webp" rel="apple-touch-icon">
+    <meta name="canonical" href="https://alta-log.com">
+    <!-- Meta Tags para SEO -->
+    <meta name="description" content="Altalog - Projetos de Estruturas de Armazenagem. Porta Paletes, Drive-In, Flow Rack, Mezanino e soluções personalizadas para seu negócio.">
+    <meta name="keywords" content="altalog, estruturas de armazenagem, porta paletes, drive-in, flow rack, mezanino, cantilever, porta bobinas, projetos de estrutura de armazenagem, projetos de aramazenagem, empres que projeta armazenagem, empresa de estrutura de armazenagem">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Altalog">
+
+    <meta property="og:url" content="https://alta-log.com">
+    <meta property="og:title" content="Altalog">
+    <meta property="og:description" content="Soluções inteligentes para quem precisa de espaço, eficiência e segurança.">
+
+    <!-- ALTERAR QUANDO MIGRAR -->
+    <meta property="og:image" content="https://alta-log/img/banner_altalog.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-s-white.webp" alt="Logo Altalog" class="logo" width="150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto btns-circle">
+                    <li class="nav-item">
+                        <a class="nav-link btn-link hover-animate" target="_blank" href="https://wa.me/5515996316527/?t=Ol%C3%A1,%20visitei%20o%20site%20da%20*Altalog*%20e%20gostaria%20de%20saber%20mais%20sobre:">Solicite um Orçamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-link hover-animate" target="_blank" href="catalogo/cat_altalog.pdf">Acessar Catálogo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel Section -->
+    <header id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- Slide 1: Apresentação da Empresa -->
+            <div class="carousel-item active" style="background-image: url('img/index/hero/hero1.webp');">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold">Altalog</h1>
+                    <p class="lead">Referência com projetos de estruturas de armazenagem.</p>
+                    <a href="quem-somos.html" class="btn btn-primary btn-lg">Conheça Nossa Empresa</a>
+                </div>
+            </div>
+            <!-- Slide 2: Foco em Elaboração -->
+            <div class="carousel-item" style="background-image: url('img/index/hero/hero2.webp');">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold">Projetos Sob Medida</h1>
+                    <p class="lead">Desenvolvemos projetos de estruturas robustas.</p>
+                    <a href="servicos.html" class="btn btn-primary btn-lg">Saiba Mais</a>
+                </div>
+            </div>
+            <!-- Slide 3: Qualidade e Tecnologia -->
+            <div class="carousel-item" style="background-image: url('img/index/hero/hero3.webp');">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold">Tecnologia e Precisão na Elaboração do Projeto</h1>
+                    <p class="lead">Representamos empresas com tecnologia de ponta.</p>
+                    <a href="servicos.html" class="btn btn-primary btn-lg">Veja Como Funciona</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </header>
+
+    <!-- Sobre Nós Resumo -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="img/index/inspecao.webp" alt="Inspeção de Armazém" class="img-fluid rounded shadow floating">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title">Excelência com projetos de<br>Estrutura de Armazenagem</h2>
+                    <p class="lead justify">A <b>ALTALOG</b> é especializada em projetos de estruturas de armazenagem, desenvolvendo soluções robustas, seguras e personalizadas para centros logísticos e indústrias de alto desempenho.</p>
+                    <p class="justify">Atendemos empresas líderes e multinacionais em todo o Brasil, oferecendo projetos sob medida que <b>otimizam o espaço, aumentam a eficiência operacional</b> e seguem rigorosamente as normas técnicas nacionais e internacionais.</p>
+                    <a href="quem-somos.html" class="btn btn-outline-primary">Saiba Mais Sobre Nós</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <p class="lead">Soluções completas para otimizar seu espaço de armazenagem</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-pallet"></i>
+                            </div>
+                            <h5 class="card-title">Porta Paletes</h5>
+                            <p class="card-text">Seletividade a todos os Paletes. Flexível para qualquer Layout. Total Controle de Estoque. Sistema FIFO.</p>
+                            <a href="servicos.html#conteudo" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-warehouse"></i>
+                            </div>
+                            <h5 class="card-title">Drive-In</h5>
+                            <p class="card-text">Armazenagem de Alta Densidade. Ideal para poucos SKUs e Alto Volume. Otimiza Espaço, Reduz Corredores. Sistema LIFO.</p>
+                            <a href="servicos.html#conteudo" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-dolly-flatbed"></i>
+                            </div>
+                            <h5 class="card-title">Flow Rack</h5>
+                            <p class="card-text">Estoque em Movimento Constante. Reduz Tempo de Picking. Perfeito para Alto Giro e FIFO. Ergonomia.</p>
+                            <a href="servicos.html#conteudo" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h5 class="card-title">Mezanino</h5>
+                            <p class="card-text">Estrutura Modular e Reforçada. Expansão Vertical sem Obras. Otimiza Espaço, Reduz Corredores.</p>
+                            <a href="servicos.html#conteudo" class="btn btn-sm btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Pilares -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nossos Pilares</h2>
+                <p class="lead">Na Altalog, sua eficiência é nossa prioridade</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 pillar-card">
+                        <div class="card-body text-center">
+                            <div class="pillar-icon mb-3">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 class="card-title">Segurança</h4>
+                            <p class="card-text">Priorizamos a segurança, desenvolvendo estruturas robustas e confiáveis para garantir a integridade das operações.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 pillar-card">
+                        <div class="card-body text-center">
+                            <div class="pillar-icon mb-3">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h4 class="card-title">Qualidade</h4>
+                            <p class="card-text">Investimos em materiais de primeira linha e processos rigorosos para a elaboração do projeto, assegurando produtos de alta durabilidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 pillar-card">
+                        <div class="card-body text-center">
+                            <div class="pillar-icon mb-3">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4 class="card-title">Personalização</h4>
+                            <p class="card-text">Desenvolvemos soluções sob medida para cada cliente, atendendo às necessidades específicas de cada operação logística.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="section-title">Expertise</h2>
+                    <p class="justify">A <b>ALTALOG</b> consolida sua reputação como representante <b>comercial de estruturas de armazenagem</b>, fornecendo soluções confiáveis para centros logísticos, indústrias e grandes corporações em todo o Brasil.</p>
+                    <p class="justify">Nossa equipe de <b>engenheiros e técnicos especializados</b> já desenvolveu e entregou <b>centenas de projetos sob medida</b>, assegurando:</p>
+                    <ul>
+                        <li class="justify"><b>Conformidade total</b> com normas técnicas nacionais e internacionais.</li>
+                        <li class="justify"><b>Desempenho estrutural</b> ideal para ambientes de alta exigência operacional.</li>
+                        <li class="justify"><b>Eficiência e segurança</b> em todas as etapas do processo logístico.</li>
+                    </ul>
+                    <div class="d-flex mt-4">
+                        <!--
+                        <div class="me-4 text-center">
+                            <h3 class="text-primary mb-0">01+</h3>
+                            <p>Anos de Atuação</p>
+                        </div>
+                        -->
+                        <div class="me-4 text-center">
+                            <h3 class="text-primary mb-0">900+</h3>
+                            <p>Empresas Atendidos</p>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-primary mb-0">3000+</h3>
+                            <p>Projetos Entregues</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <img src="img/index/20anos.webp" alt="experiência na elaboração de estruturas de armazenagem" class="img-fluid rounded shadow floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="lead">Estamos prontos para atender sua empresa</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h4 class="mb-4">Informações de Contato</h4>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Endereço</h6>
+                                <p class="mb-0">Rua Araçatuba, 140 - Vila Trujillo, Sorocaba - SP, 18060-480</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Telefone</h6>
+                                <p class="mb-0">(15) 9 9807-1001</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Email</h6>
+                                <p class="mb-0">Contato@alta-log.com</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h6 class="mb-3">Siga-nos</h6>
+                            <div class="social-icons">
+                                <a target="_blank" href="https://wa.me/5515996316527/?t=Ol%C3%A1,%20visitei%20o%20site%20da%20*Altalog*%20e%20gostaria%20de%20saber%20mais%20sobre:" class="me-2" aria-label="Botão WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/altalog_oficial" class="me-2" aria-label="Botão Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form p-4 bg-light rounded shadow-sm form-contato-zap">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="empresa" class="form-control" placeholder="Empresa" required>
+                            </div>
+                            <div class="col-12">
+                                <select name="assunto" class="form-select" required>
+                                    <option value="" selected>Selecione um assunto</option>
+                                    <option value="Sistemas de Armazenagem Completo">Sistemas de Armazenagem Completo</option>
+                                    <option value="Parte de Estrutura">Parte de Estrutura</option>
+                                    <option value="Outros serviços">Outros</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="msg" class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes Carousel -->
+    <section class="clients-carousel py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nossos Clientes</h2>
+                <p class="lead">Empresas que confiam em nossos serviços</p>
+            </div>
+            <div id="clientsCarousel" class="carousel slide client-carousel-container" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                        <img src="img/clientes/mosaic.webp" alt="Logo Mosaic" class="client-logo">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                        <img src="img/clientes/mosaic.webp" alt="Logo Mosaic" class="client-logo">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/mosaic.webp" alt="Logo Mosaic" class="client-logo">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/cargill.webp" alt="Logo Cargill" class="client-logo">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                        <img src="img/clientes/dsm.webp" alt="Logo DSM" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/cnh.webp" alt="Logo CNH - Case New Holland" class="client-logo">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                        <img src="img/clientes/dsm.webp" alt="Logo DSM" class="client-logo">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/pepsico.webp" alt="Logo Pepsico" class="client-logo">
+                        <img src="img/clientes/dsm.webp" alt="Logo DSM" class="client-logo">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/dsm.webp" alt="Logo DSM" class="client-logo">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clientes/zf.webp" alt="Logo ZF Friedrichshafen" class="client-logo">
+                        <img src="img/clientes/amcor.webp" alt="Logo Amcor" class="client-logo">
+                        <img src="img/clientes/bombril.webp" alt="Logo Bombril" class="client-logo">
+                        <img src="img/clientes/mosaic.webp" alt="Logo Mosaic" class="client-logo">
+                    </div>
+                </div>
+                <!-- Botões de navegação ocultos via CSS -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#clientsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#clientsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <img src="img/logo-s-white.webp" alt="Logo da Empresa" class="footer-logo mb-3" width="200px">
+                    <p><b>Soluções inteligentes para quem precisa de espaço, eficiência e segurança.</b></p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="quem-somos.html" class="text-white">Quem Somos</a></li>
+                        <li class="mb-2"><a href="servicos.html" class="text-white">Serviços</a></li>
+                        <li class="mb-2"><a href="politica-privacidade.html" class="text-white">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a target="_blank" href="https://maps.app.goo.gl/K63ei1VYuU1R85Rg8"><i class="fas fa-map-marker-alt me-2"></i> Rua Araçatuba, 140 - Vila Trujillo, Sorocaba - SP, 18060-480</a></li>
+                        <li class="mb-2"><a target="_blank" href="tel:15998071001"><i class="fas fa-phone me-2"></i> (15) 9 9807-1001</a></li>
+                        <li class="mb-2"><a target="_blank" href="mailto:Contato@alta-log.com"><i class="fas fa-envelope me-2"></i> Contato@alta-log.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Altalog Projetos. Todos os direitos reservados. - CNPJ: 58.520.429/0001-90</p>
+                    <p>Todos os direitos reservados. Política atualizada em 01/08/2025</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.instagram.com/altalog_oficial" class="text-white me-3" aria-label="Botão social media Instagram"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://wa.me/5515996316527/?t=Ol%C3%A1,%20visitei%20o%20site%20da%20*Altalog*%20e%20gostaria%20de%20saber%20mais%20sobre:" class="text-white" aria-label="Botão social media WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
